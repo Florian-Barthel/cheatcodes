@@ -6,26 +6,23 @@
 3. run file `./test.sh`
 
 ### Read
-Display content 
 ```sh
- cat [filename]
- ```
-Merge content 
-```sh
+# Display content 
+cat [filename]
+
+# Merge content 
 cat info.txt info2.txt > mergedinfo.text
 ```
 
 ### Copy
-Duplicate file
 ```sh
+# Duplicate file
 cp myfile.txt myfile2.txt
-```
-Copy file to folder
-```sh
+
+# Copy file to folder
 cp /home/hostinger/myfile.txt /home/etc/
-```
-Copy folder recursively 
-```sh
+
+# Copy folder recursively 
 cp -R /home/hostinger/myfolder /home/etc/
 ``` 
 
@@ -36,60 +33,53 @@ mv [source] [destination]
 ```
 
 ### Find Content
-Find word in file
 ```sh
+# Find word in file
 grep 'line' info.txt
-```
-Find files ending with .zip
-```sh
+
+# Find files ending with .zip
 ls -l | grep .zip
 ```
 
 ### tar
-Create tar
 ```sh
+# Create tar
 tar -czvf file.tar.gz /directory_to_tar
-```
 
-Unpack tar 
-```sh
+# Unpack tar 
 tar -xzvf file.tar.gz -C /target_dir/
 ```
 
 ### zip
 Install `sudo apt install unzip` `sudo apt-get install zip`
-zip 
 ```sh
+# zip 
 zip -r file.zip folder1 folder2
-```
 
-unzip 
-```sh
+# unzip 
 unzip sampleZipFile.zip
-```
-unzip multiple 
-```sh
+
+# unzip multiple 
 unzip *.zip
 ```
 
 ### Get file size
-List all files with information
 ```sh
+# List all files with information
 ls -l
 ```
 
 ### chmod
-Alle rechte rekursiv 
 ```sh
+# Alle rechte rekursiv 
 chmod -R 777 foldername
-```
-Read only rekursiv
-```sh
+
+# Read only rekursiv
 chmod -R a=r foldername
 ```
 
 ### pipe
-Pipe output to next command 
 ```sh
+# Pipe output to next command 
 command with result | command expecting input
 ```
