@@ -29,7 +29,7 @@ Strikethrough	~~italicized text~~
 ````
 
 ### Code 
-````json
+````md
 `code`
 
 ```json
