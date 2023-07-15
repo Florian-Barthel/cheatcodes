@@ -75,3 +75,8 @@ Bold \textbf{text}
 % autor
 \citeauthor{}
 ```
+
+### Use multiple tex files
+```tex
+\input{Chapters/1_introduction/index}
+```
