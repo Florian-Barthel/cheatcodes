@@ -1,3 +1,4 @@
+# [Home](../README.md)
 
 Heading
 ```
@@ -45,15 +46,15 @@ Table
 ```
 
 Fenced Code Block<br>
+````
 ```
-\```
 {
   "firstName": "John",
   "lastName": "Smith",
   "age": 25
 }
-\```
 ```
+````
 
 
 
