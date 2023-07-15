@@ -6,7 +6,7 @@
 
 Get Cuda Info
 
-```
+```sh
 nvcc --version
 whereis cuda
 cat /usr/local/cuda/version.txt
