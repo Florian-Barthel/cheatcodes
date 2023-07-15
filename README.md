@@ -6,6 +6,7 @@
 - [commandline](general/commandline.md)
 - [latex](general/latex.md)
 - [ssh](general/ssh.md)
+- [tmux](general/tmux.md)
 
 
 ## Python
@@ -15,3 +16,4 @@
 - [matplotlib](python/matplotlib.md)
 - [tqdm](python/tqdm.md)
 - [io](python/io.md)
+- [arguments](python/arguments.md)

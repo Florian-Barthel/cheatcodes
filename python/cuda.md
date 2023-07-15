@@ -2,4 +2,13 @@
 
 [CUDA Compatibility Check](https://en.wikipedia.org/wiki/CUDA)
 
-[Install CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
+[Manually install CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
+
+Get Cuda Info
+
+```
+nvcc --version
+whereis cuda
+cat /usr/local/cuda/version.txt
+nvidia-smi
+```
