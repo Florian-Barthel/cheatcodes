@@ -6,37 +6,90 @@
 3. run file `./test.sh`
 
 ### Read
-- Display content `cat [filename]`
-- Merge content `cat info.txt info2.txt > mergedinfo.text`
+Display content 
+```sh
+ cat [filename]
+ ```
+Merge content 
+```sh
+cat info.txt info2.txt > mergedinfo.text
+```
 
 ### Copy
-- duplicate file `cp myfile.txt myfile2.txt`
-- copy file to folder `cp /home/hostinger/myfile.txt /home/etc/`
-- copy folder recursively `cp -R /home/hostinger/myfolder /home/etc/` 
+Duplicate file
+```sh
+cp myfile.txt myfile2.txt
+```
+Copy file to folder
+```sh
+cp /home/hostinger/myfile.txt /home/etc/
+```
+Copy folder recursively 
+```sh
+cp -R /home/hostinger/myfolder /home/etc/
+``` 
 
 ### Move
-- Move file or folder `mv [source] [destination]`
+Move file or folder 
+```sh
+mv [source] [destination]
+```
 
 ### Find Content
-- Find word in file `grep 'line' info.txt`
-- Find files ending with .zip `ls -l | grep .zip`
+Find word in file
+```sh
+grep 'line' info.txt
+```
+Find files ending with .zip
+```sh
+ls -l | grep .zip
+```
 
 ### tar
-- create tar `tar -czvf file.tar.gz /directory_to_tar`
-- unpack tar `tar -xzvf file.tar.gz -C /target_dir/`
+Create tar
+```sh
+tar -czvf file.tar.gz /directory_to_tar
+```
+
+Unpack tar 
+```sh
+tar -xzvf file.tar.gz -C /target_dir/
+```
 
 ### zip
-- install `sudo apt install unzip` `sudo apt-get install zip`
-- zip `zip -r file.zip folder1 folder2` 
-- unzip `unzip sampleZipFile.zip`
-- unzip multiple `unzip *.zip`s
+Install `sudo apt install unzip` `sudo apt-get install zip`
+zip 
+```sh
+zip -r file.zip folder1 folder2
+```
+
+unzip 
+```sh
+unzip sampleZipFile.zip
+```
+unzip multiple 
+```sh
+unzip *.zip
+```
 
 ### Get file size
-- `ls -l`
+List all files with information
+```sh
+ls -l
+```
 
 ### chmod
-- alle rechte rekursiv `chmod -R 777 foldername`
-- read only rekursiv `chmod -R a=r foldername`
+Alle rechte rekursiv 
+```sh
+chmod -R 777 foldername
+```
+Read only rekursiv
+```sh
+chmod -R a=r foldername
+```
 
 ### pipe
-- pipe output to next command `command with result | command expecting input`
+Pipe output to next command 
+```sh
+command with result | command expecting input
+```
