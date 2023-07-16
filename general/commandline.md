@@ -66,7 +66,7 @@ unzip *.zip
 ### Get file size
 ```sh
 # List all files with information
-ls -l
+ls -h -l
 ```
 
 ### chmod
