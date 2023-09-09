@@ -2,13 +2,13 @@
 
 ## JSON
 
-### Read
+### read
 
 ```python
 import json
 
 with open("path", "r") as file:
-  data = json.load(f)
+  data = json.load(file)
 ```
 
 ### write
