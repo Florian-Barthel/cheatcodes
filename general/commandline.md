@@ -44,10 +44,10 @@ ls -l | grep .zip
 ### tar
 ```sh
 # Create tar
-tar -czvf file.tar.gz /directory_to_tar
+tar -cvf file.tar /directory_to_tar
 
 # Unpack tar 
-tar -xzvf file.tar.gz -C /target_dir/
+tar -xf file.tar
 ```
 
 ### zip
